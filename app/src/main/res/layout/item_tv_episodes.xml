@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_tvshow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    android:background="@drawable/bg_linear"
+    android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/tv_episodes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Episodes:"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/tv_airDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Air Date"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>
